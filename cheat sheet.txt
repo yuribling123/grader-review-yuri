@@ -1,0 +1,6 @@
+if [ ! -f ListExamples.java  ];
+#exit if the file does not exist
+then echo "File Does Not Exist"
+exit 0
+fi
+echo "File Exists"
